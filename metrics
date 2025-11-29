@@ -1,0 +1,40 @@
+{
+  "HTTP_avg_latency": 33.65,
+  "TCP_avg_latency": 32.39,
+  "ZMQ_avg_latency": 32.93,
+  "total_sent": 163,
+  "total_received": 153,
+  "total_lost": 10,
+  "retransmitted_total": 0,
+  "retransmitted_by_device": {},
+  "congested": false,
+  "throttled_devices": [],
+  "failed_devices": [],
+  "dos_devices": [],
+  "zone_status": {
+    "ICU": {
+      "total_devices": 4,
+      "active_devices": 4,
+      "congested": false,
+      "health": "HEALTHY"
+    },
+    "OR": {
+      "total_devices": 3,
+      "active_devices": 3,
+      "congested": false,
+      "health": "HEALTHY"
+    },
+    "Ward": {
+      "total_devices": 3,
+      "active_devices": 3,
+      "congested": false,
+      "health": "HEALTHY"
+    }
+  },
+  "protocol_alerts": {
+    "HTTP": 0,
+    "TCP": 0,
+    "ZMQ": 0
+  },
+  "manual_logs": []
+}
